@@ -7,6 +7,7 @@ import ComParametro from './components/basicos/ComParametro'
 import Fragmento from './components/basicos/Fragmento'
 import Random from './components/basicos/Random'
 import Card from './components/layout/Card'
+import ListaAlunos from "./components/repeticao/ListaAlunos";
 
 const app = () =>{
     return(
@@ -40,6 +41,10 @@ const app = () =>{
                         <FamiliaMembro nome="Gabriel"/>
                         <FamiliaMembro nome="Victor"/>
                     </Familia>
+                </Card>
+
+                <Card titulo=" #6 - Lista Repeticao" color="#FF4C65">
+                    <ListaAlunos></ListaAlunos>
                 </Card>
 
             </div>
