@@ -15,7 +15,7 @@ import DiretaPai from "./components/comunicacao/DiretaPai";
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
 import Input from "./components/formulario/input";
 import Contador from "./components/contador/Contador";
-
+import Mega from "./components/mega/Mega";
 
 
 const app = () =>{
@@ -79,6 +79,10 @@ const app = () =>{
 
                 <Card titulo=" #12 - Contador" color="#424242">
                     <Contador numeroInicial={10}></Contador>
+                </Card> 
+
+                <Card titulo=" #13 - Mega" color="#B9006E">
+                    <Mega qtde={8}></Mega>
                 </Card> 
 
             </div>
