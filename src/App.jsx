@@ -11,6 +11,10 @@ import ListaAlunos from "./components/repeticao/ListaAlunos";
 import TabelaProdutos from "./components/repeticao/TabelaProdutos";
 import ParOuImpar from "./components/condicional/ParOuImpar";
 import UsuarioInfo from "./components/condicional/UsuarioInfo";
+import DiretaPai from "./components/comunicacao/DiretaPai";
+import IndiretaPai from "./components/comunicacao/IndiretaPai";
+import Input from "./components/formulario/input";
+import Contador from "./components/contador/Contador";
 
 
 
@@ -59,6 +63,22 @@ const app = () =>{
                 <Card titulo=" #8 - Renderizacao Condicional" color="#982395">
                     <ParOuImpar numero={20}></ParOuImpar>
                     <UsuarioInfo usuario={{ nome: ''}}/>
+                </Card> 
+
+                <Card titulo=" #9 - Comunicacao direta" color="#59323C">
+                    <DiretaPai></DiretaPai>
+                </Card> 
+
+                <Card titulo=" #10 - Comunicacao indireta" color="#8BAD39">
+                    <IndiretaPai></IndiretaPai>
+                </Card> 
+
+                <Card titulo=" #11 - Componente Controlado (Input)" color="#8BAD39">
+                    <Input></Input>
+                </Card> 
+
+                <Card titulo=" #12 - Contador" color="#424242">
+                    <Contador numeroInicial={10}></Contador>
                 </Card> 
 
             </div>
