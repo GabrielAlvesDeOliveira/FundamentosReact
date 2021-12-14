@@ -8,6 +8,11 @@ import Fragmento from './components/basicos/Fragmento'
 import Random from './components/basicos/Random'
 import Card from './components/layout/Card'
 import ListaAlunos from "./components/repeticao/ListaAlunos";
+import TabelaProdutos from "./components/repeticao/TabelaProdutos";
+import ParOuImpar from "./components/condicional/ParOuImpar";
+import UsuarioInfo from "./components/condicional/UsuarioInfo";
+
+
 
 const app = () =>{
     return(
@@ -46,6 +51,15 @@ const app = () =>{
                 <Card titulo=" #6 - Lista Repeticao" color="#FF4C65">
                     <ListaAlunos></ListaAlunos>
                 </Card>
+
+                <Card titulo=" #7 - Desafio Repeticao" color="#3A9AD9">
+                    <TabelaProdutos></TabelaProdutos>
+                </Card> 
+
+                <Card titulo=" #8 - Renderizacao Condicional" color="#982395">
+                    <ParOuImpar numero={20}></ParOuImpar>
+                    <UsuarioInfo usuario={{ nome: ''}}/>
+                </Card> 
 
             </div>
         </div>
